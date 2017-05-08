@@ -1,0 +1,34 @@
+
+import java.io.DataInputStream;
+
+system.out.println("Enter the age of the user: ");
+
+DataInputStream input = new DataInputStream (System.in);
+int age = dis.readInt();
+
+
+if ( age < 45 ) 
+{
+	//user is not allowed to have health care plan
+	system.out.println("User is too young");
+}
+
+else
+{
+	//user has option of health care plan
+	system.out.println("Enter number of people in family: ");
+	DataInputStream input = new DataInputStream (System.in);
+	int people = dis.readInt();
+
+	if (people < 4)
+	{
+		system.out.println("Cost is $444");
+	}
+
+	else 
+	{
+		system.out.println("Cost is $222");
+	}
+
+}
+
