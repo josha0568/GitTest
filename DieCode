@@ -13,6 +13,7 @@ public class Die
 
     private final int iMyNumSides;
     private int iMyResult;
+    private int albinoSquirrel = 0;
 
 
     /**
